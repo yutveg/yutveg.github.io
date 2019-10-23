@@ -1,0 +1,37 @@
+header {
+    background-image: url("../imgs/veggieburger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 745px){
+        height: 50vh;
+    }
+    
+    #hwrapper {
+        background: rgba(52, 52, 52, 0.7);
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 2% 1%;
+        h1 {
+            color: black;
+            margin-bottom: 5%;
+            font-weight: 600;
+            font-size: 6rem;
+            text-shadow: 2px 4px 3px rgba(216, 216, 216, 0.3);
+    
+            @media (max-width: 693px) {
+                text-align: center;
+            }
+        }
+        #button {
+            .buttonshtoyle();
+        }
+    }
+}
+ 
